@@ -1,0 +1,25 @@
+.dashb{
+    left: -5%;
+    right: 5%;
+    padding-left: 15%;
+    
+}
+.demo-card-header-pic .card-header {
+    height: 40vw;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  .demo-card-header-pic .card-content-padding .date{
+    color: #8e8e93;
+  }
+
+  .profil{
+    max-width: 80px;
+    max-height: 80px;
+    /*border-radius: 30%;*/
+  }
+
+  .item-detail{
+    padding-left : 5%;
+  }

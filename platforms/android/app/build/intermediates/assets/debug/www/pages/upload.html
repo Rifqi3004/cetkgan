@@ -1,0 +1,135 @@
+<div class="page" data-name="upload">
+        <div class="navbar">
+          <div class="navbar-inner sliding">
+            <div class="left">
+              <a href="#" class="link back">
+                <i class="icon icon-back"></i>
+                <span class="ios-only">Back</span>
+              </a>
+            </div>
+            <div class="title">Upload dokumen cetak</div>
+          </div>
+        </div>
+        <div class="page-content">
+          <div class="block block-strong">
+              <form action="#">
+                <div class="file-field input-field">
+                  <div class="btn">
+                    <span>File</span>
+                    <input type="file" multiple>
+                  </div>
+                  <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text" placeholder="Upload dokumen yang akan di cetak word/pdf">
+                  </div>
+                </div>
+              </form>  
+          </div>
+          <div class="block ">
+              <div class="list">
+                  <ul>
+                    <li>
+                      <label class="item-radio item-content">
+                        <input type="radio" name="demo-radio" value="Books" checked />
+                        <i class="icon icon-radio"></i>
+                        <div class="item-inner">
+                          <div class="item-title">Print Hitam</div>
+                        </div>
+                      </label>
+                    </li>
+                    <li>
+                      <label class="item-radio item-content">
+                        <input type="radio" name="demo-radio" value="Movies"/>
+                        <i class="icon icon-radio"></i>
+                        <div class="item-inner">
+                          <div class="item-title">Print Warna</div>
+                        </div>
+                      </label>
+                    </li>
+                    
+                  </ul>
+              </div>
+              <div class="row text-align-center">
+                <div class="col-30 text-align-center">Jumlah cetak/copy</div>
+                <div class="col-70">
+                  <div class="stepper stepper-fill stepper-init" data-wraps="true" data-autorepeat="true" data-autorepeat-dynamic="true" data-decimal-point="2" data-manual-input-mode="true">
+                    <div class="stepper-button-minus"></div>
+                    <div class="stepper-input-wrap">
+                      <input type="text" value="0" min="0" max="1000" step="1">
+                    </div>
+                    <div class="stepper-button-plus"></div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="list">
+              <ul>
+                  <li>
+                    <a class="item-link smart-select smart-select-init">
+                      <select name="jenis-kertas">
+                        <option value="a1" >A1 (59.4 x 84.1cm)</option>
+                        <option value="a2">A2 (42 x 59.4 cm)</option>
+                        <option value="a3">A3 (29.7 x 42 cm)</option>
+                        <option value="a4">A4 (21.5 x 29.7cm) </option>
+                        <option value="a5">A5 (14.8 x 21cm)</option>
+                        <option value="2r">2R (6 x 9cm)</option>
+                        <option value="3r">3R (8.9 x 9cm)</option>
+                        <option value="4r">4R (10.2 x 12.7cm)</option>
+                        <option value="5r">5R (12.7 x 15.2cm)</option>
+                        <option value="6r">6R (15.2 x 17.8cm)</option>
+                        <option value="8r">8R (20.3 x 25.4cm)</option>
+                      </select>
+                      <div class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title">Ukuran kertas</div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                      <a class="item-link smart-select smart-select-init">
+                        <select name="jenis-kertas">
+                          <option value="1">HVS</option>
+                          <option value="2">Art Paper</option>
+                          <option value="3">Art Carton</option>
+                          <option value="4">Bufallo</option>
+                          <option value="5">Sticker</option>
+                        </select>
+                        <div class="item-content">
+                          <div class="item-inner">
+                            <div class="item-title">Jenis kertas</div>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+              </ul>
+            </div>
+            <div class="block-title">Tambahan</div>
+            <div class="list">
+                <ul>
+                  <li>
+                    <label class="item-checkbox item-content">
+                      <input type="checkbox" name="demo-checkbox" value="jilid" checked="checked"/>
+                      <i class="icon icon-checkbox"></i>
+                      <div class="item-inner">
+                        <div class="item-title">Jilid (Biasa + Mika Bening)</div>
+                      </div>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="item-checkbox item-content">
+                      <input type="checkbox" name="demo-checkbox" value="laminating"/>
+                      <i class="icon icon-checkbox"></i>
+                      <div class="item-inner">
+                        <div class="item-title">Laminating</div>
+                      </div>
+                    </label>
+                  </li>
+                 
+                </ul>
+              </div>
+              <a class="button button-fill color-blue" href="/checkout">Cetak</a>
+          </div>
+                          
+        </div>
+      </div>
+      
